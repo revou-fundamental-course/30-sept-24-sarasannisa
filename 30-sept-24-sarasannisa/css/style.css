@@ -1,0 +1,111 @@
+/*Ini-css*/
+
+main {
+    max-width: 500px;
+}
+
+body {
+margin: 0px;
+background: antiquewhite;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+font-family: "Lucida Console", "Courier New", monospace;
+font-size: smaller;
+}
+
+.pilih-unit {
+    font-family: "Tahoma", sans-serif;
+    font-size: 12px;
+    height: 1.5rem;
+    background-color: lightgoldenrodyellow;
+}
+
+.form-grup {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.result-temp-short {
+    font-size: smaller;
+}
+
+.result-temp-long {
+    font-size: smaller;
+}
+
+h1 {
+    font-family: "Calibri";
+    font-size: 30px;
+    margin-block-start: 3rem;
+    margin-block-end: 0px;
+}
+
+fieldset {
+    background-color: lightsalmon;
+    font-family: "Cambria";
+    font-size: 20px;
+}
+
+textarea {
+    resize: none;
+
+}
+.suhu-style {
+    font-style: italic;
+    font-family: math;
+    }
+
+.form-input {
+    font-family: monospace;
+    font-size: 15px;
+    text-rendering: geometricPrecision;
+    width: 6rem;
+    height: 1.1rem;
+    padding: 2px;
+    border: 2px;
+    border-radius: 2px;
+}
+
+.kotak-fahrenheit {
+    display: flex;
+    flex-direction: row;
+}
+
+.math-style {
+    font-size: 20px;
+    font-family: math;
+}
+
+button {
+    font-family: "Tahoma", sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: azure;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.kebalikan {
+    font-family: "arial";
+    font-size: 10px;
+}
+
+#button-container {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width= 360px) {
+    #button-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .h1 {
+        font-size-adjust: ch-width;
+    }
+}
